@@ -1,18 +1,41 @@
-### Sysadmin First Aid Kit
+## Local Users & Groups
+```Get-LocalUser``` ```New-LocalUse``` ```Set-LocalUser``` <br />
+```Get-LocalGroup``` ```Get-LocalGroupMember``` ```Add-LocalGroupMember```
 
-This document contains the commands that I would describe as the initial tools that a sysadmin should know how to use.
+## Events & Logs
+```Get-EventLog``` ```Get-WinEvent``` ```Get-WinEvent``` <br />
+```Get-WinEvent``` ```Clear-EventLog``` ```Get-WinEvent```
 
-### Diagnosis Command
-These are commands used to read, starting with a Get- verb and taking a respective noun.
+## Processes & Services
+```Get-Process``` ```Stop-Process``` ```Get-Service``` <br />
+```Start-Service``` ```Stop-Service``` ```Restart-Service```
 
-```Get-Process``` ```Get-Service``` ```Get-WinEvent```
+## Networking
+```Get-NetIPAddress``` ```Get-NetAdapter``` ```Test-NetConnection``` ```Get-NetTCPConnection``` ```Get-DnsClientCache``` <br />
+```Clear-DnsClientCache``` ```Resolve-DnsName``` ```Get-NetRoute``` ```New-NetFirewallRule``` ```Get-NetFirewallRule```
 
-Users and groups:
-```Get-LocalUser``` ```Get-LocalGroup```
+## Disk & File System
+```Get-PSDrive``` ```Get-Volume``` ```Get-Disk``` ```Get-ChildItem``` <br />
+```Test-Path``` ```Remove-Item``` ```New-Item``` ```Get-Acl```
 
-Network and connection:
-```Get-NetIPAddress``` ```Get-NetTCPConnection```
+## System Info & Performance
+```Get-ComputerInfo``` ```Get-CimInstance``` <br />
+```Get-Counter``` ```Get-HotFix``` ```Get-WmiObject```
 
-The fun continues, we are now at a hardware and OS level of prying.
+## Remote Management
+```Enable-PSRemoting``` ```Enter-PSSession``` <br /> 
+```Invoke-Command``` ```New-PSSession``` ```Test-WSMan```
 
-```Get-CimInstance``` this is queryable-everything for hardware/OS layer. In full it looks something like ```Get-CimInstance -ClassName Win32_OperatingSystem```
+## Package/Software Management
+```Install-WindowsFeature``` ```Uninstall-WindowsFeature``` <br />
+```Get-Package``` ```Install-Module``` ```Get-WindowsFeature```
+
+## Scheduled Tasks
+```Register-ScheduledTask``` ```Unregister-ScheduledTask``` <br />
+```Start-ScheduledTask``` ```Get-ScheduledTask``` ```Disable-ScheduledTask```
+
+## Security & Permissions
+```Get-Credential``` ```ConvertTo-SecureString``` <br />
+```Get-ExecutionPolicy``` ```Get-PSSessionConfiguration```
+
+## 
