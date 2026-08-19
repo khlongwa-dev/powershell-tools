@@ -38,4 +38,7 @@
 ```Get-Credential``` ```ConvertTo-SecureString``` <br />
 ```Get-ExecutionPolicy``` ```Get-PSSessionConfiguration```
 
-## 
+## Utility/Everyday Helpers
+```ConvertTo-Json``` ```ConvertFrom-Json``` ```Import-Csv``` ```Export-Csv``` <br />
+```Get-Help``` ```Get-Command``` ```Get-Member``` ```Measure-Command``` ```Measure-Object``` <br />
+```Select-Object``` ```Where-Object``` ```Sort-Object``` ```Group-Object``` ```ForEach-Object```
